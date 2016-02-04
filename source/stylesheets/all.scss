@@ -1,0 +1,163 @@
+@charset "utf-8";
+@import "general_foundicon";
+@import "icon-fonts";
+
+body {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+h1 {
+font-family:"Oswald";
+font-weight:normal;
+font-size: 55px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+
+h2 {
+font-family:"Arvo";
+font-weight: normal;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin: 0;
+padding: 0;
+}
+
+h3 {
+font-family: "Oswald";
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+margin: 5px 0;
+padding: 0;
+z-index: 1;
+position: relative;
+}
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px;}
+
+.clear { clear: both; }
+
+#header {
+width: 100%;
+background: url('../images/header-bg.png');
+height: 80px;
+position: fixed;
+}
+
+#nav { width: 455px; float: right; margin-top: 20px; }
+#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Oswald"; font-weight: bold; }
+#nav ul{
+list-style: none;
+display: block;
+margin: 0 auto;
+list-style: none;
+}
+
+#nav li {
+margin-top: 9px;
+float: left;
+padding-left: 21px;
+}
+#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Oswald'; }
+#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1; }
+
+.quotes {
+font-family: 'Goudy Bookletter 1911', serif;
+font-weight: normal;
+font-size: 30px;
+text-align: left;
+margin: 50px auto;
+}
+
+.quotes_container {
+width: 800px;
+margin: 0 auto;
+}
+
+#slide1, #slide2{
+width: 100%;
+}
+
+#slide1 {
+background:url('../images/hero-1.jpg') 50% 0 no-repeat fixed;
+color: #fff;
+height: 600px;
+margin: 0;
+padding: 200px 0 260px 0;
+background-size: cover;
+}
+
+#slide2 {
+background-color: #fff;
+color: #000;
+height: 600px;
+margin: 0 auto;
+overflow: hidden;
+padding: 200px 0;
+}
+
+.about img, .about .social-icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.about img {
+  margin-right: 20px;
+}
+
+#slide3 {
+background: url(../images/ocean.jpg) 50% 0 no-repeat fixed;
+color: #fff;
+height: 600px;
+padding: 170px 0 0 0;
+background-size: cover;
+}
+
+#slide4 {
+background-color: #Fff;
+color: #333333;
+height: 600px;
+padding: 200px 0;
+}
+
+#slide5 {
+background: url(../images/pier-edit-1.jpg) 50% 0 no-repeat fixed;
+height: 300px;
+margin: 0 auto;
+padding: 250px 0;
+color: #fff;
+background-size: cover;
+}
+
+.client-logos {
+  text-align: center;
+}
+.client-logos img {
+  width: 100px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.client-logos a:nth-child(3) img {
+  width: 75px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (min-width: 750px) {
+  #slide1 {
+    background-size: 100%;
+  }
+}
+

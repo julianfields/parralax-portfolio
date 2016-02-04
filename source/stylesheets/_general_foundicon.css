@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'foundicons';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('/fonts/general_foundicons.eot');
+  src: url('/fonts/general_foundicons.eot?#iefix') format('eot'),
+  url('/fonts/general_foundicons.woff') format('woff'),
+  url('/fonts/general_foundicons.ttf') format('truetype'),
+  url('/fonts/general_foundicons.svg#general_foundicons') format('svg');
+
+}
+
+/* global general_foundicons styles */
+[class*="fi-"] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: middle;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="fi-"]:before {
+  font-family: "foundicons";
+  font-weight: normal;
+  display: inline-block;
+  color: #ebebeb;
+  vertical-align: middle;
+  font-size: 3.5em;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+.fi-mail:before {
+  content: "\f007";
+}
+
+

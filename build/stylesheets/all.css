@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'foundicons';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url("/fonts/general_foundicons.eot");
+  src: url("/fonts/general_foundicons.eot?#iefix") format("eot"), url("/fonts/general_foundicons.woff") format("woff"), url("/fonts/general_foundicons.ttf") format("truetype"), url("/fonts/general_foundicons.svg#general_foundicons") format("svg"); }
+/* global general_foundicons styles */
+/* line 14, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_general_foundicon.css */
+[class*="fi-"] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: middle;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat; }
+
+/* line 25, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_general_foundicon.css */
+[class*="fi-"]:before {
+  font-family: "foundicons";
+  font-weight: normal;
+  display: inline-block;
+  color: #ebebeb;
+  vertical-align: middle;
+  font-size: 3.5em;
+  font-style: normal;
+  text-decoration: inherit; }
+
+/* line 36, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_general_foundicon.css */
+.fi-mail:before {
+  content: "\f007"; }
+
+@font-face {
+  font-family: 'entypo';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url("http://weloveiconfonts.com/api/fonts/entypo/entypo.eot");
+  src: url("http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix") format("eot"), url("http://weloveiconfonts.com/api/fonts/entypo/entypo.woff") format("woff"), url("http://weloveiconfonts.com/api/fonts/entypo/entypo.ttf") format("truetype"), url("http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo") format("svg"); }
+/* global entypo styles */
+/* line 13, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_icon-fonts.css */
+[class*="entypo-"] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: middle;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat; }
+
+/* line 24, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_icon-fonts.css */
+[class*="entypo-"]:before {
+  font-family: "entypo";
+  font-weight: normal;
+  font-size: 3.5em;
+  font-style: normal;
+  text-decoration: inherit; }
+
+/* line 32, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_icon-fonts.css */
+.entypo-instagram:before {
+  content: "\f32d"; }
+
+/* line 35, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_icon-fonts.css */
+.entypo-twitter:before {
+  content: "\f309"; }
+
+/* line 38, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_icon-fonts.css */
+.entypo-linkedin:before {
+  content: "\f30c"; }
+
+/* line 41, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_icon-fonts.css */
+.entypo-github:before {
+  content: "\f300"; }
+
+/* line 44, /Users/julianfields/work/parralax-portfolio/source/stylesheets/_icon-fonts.css */
+.entypo-mail:before {
+  content: "\2709"; }
+
+/* line 5, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+/* line 11, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+h1 {
+  font-family: "Oswald";
+  font-weight: normal;
+  font-size: 55px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+
+/* line 21, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+h2 {
+  font-family: "Arvo";
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+
+/* line 31, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+h3 {
+  font-family: "Oswald";
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+  padding: 0;
+  z-index: 1;
+  position: relative; }
+
+/* line 42, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.center {
+  margin: 0 auto; }
+
+/* line 43, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.content {
+  margin: 0 auto;
+  width: 960px; }
+
+/* line 45, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.clear {
+  clear: both; }
+
+/* line 47, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#header {
+  width: 100%;
+  background: url("../images/header-bg.png");
+  height: 80px;
+  position: fixed; }
+
+/* line 54, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#nav {
+  width: 455px;
+  float: right;
+  margin-top: 20px; }
+
+/* line 55, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#logo a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Oswald";
+  font-weight: bold; }
+
+/* line 56, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#nav ul {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none; }
+
+/* line 63, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#nav li {
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px; }
+
+/* line 68, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#nav li a {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Oswald'; }
+
+/* line 69, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#nav li a.active {
+  color: #fff;
+  opacity: 1;
+  border-bottom: 2px solid #fff; }
+
+/* line 70, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#nav li a:hover {
+  color: #fff;
+  opacity: 1; }
+
+/* line 72, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.quotes {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  margin: 50px auto; }
+
+/* line 80, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.quotes_container {
+  width: 800px;
+  margin: 0 auto; }
+
+/* line 85, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#slide1, #slide2 {
+  width: 100%; }
+
+/* line 89, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#slide1 {
+  background: url("../images/hero-1.jpg") 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover; }
+
+/* line 98, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#slide2 {
+  background-color: #fff;
+  color: #000;
+  height: 600px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0; }
+
+/* line 107, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.about img, .about .social-icons {
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 112, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.about img {
+  margin-right: 20px; }
+
+/* line 116, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#slide3 {
+  background: url(../images/ocean.jpg) 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover; }
+
+/* line 124, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#slide4 {
+  background-color: #Fff;
+  color: #333333;
+  height: 600px;
+  padding: 200px 0; }
+
+/* line 131, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+#slide5 {
+  background: url(../images/pier-edit-1.jpg) 50% 0 no-repeat fixed;
+  height: 300px;
+  margin: 0 auto;
+  padding: 250px 0;
+  color: #fff;
+  background-size: cover; }
+
+/* line 140, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.client-logos {
+  text-align: center; }
+
+/* line 143, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.client-logos img {
+  width: 100px;
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 149, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.client-logos a:nth-child(3) img {
+  width: 75px; }
+
+/* line 153, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+.social-icons a {
+  text-decoration: none;
+  color: #000; }

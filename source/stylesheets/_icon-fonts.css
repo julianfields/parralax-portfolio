@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'entypo';
+  font-style: 'normal';
+  font-weight: 'normal';
+  src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot');
+  src: url('http://weloveiconfonts.com/api/fonts/entypo/entypo.eot?#iefix') format('eot'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.woff') format('woff'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.ttf') format('truetype'), 
+  url('http://weloveiconfonts.com/api/fonts/entypo/entypo.svg#entypo') format('svg');
+}
+
+/* global entypo styles */
+[class*="entypo-"] {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  line-height: inherit;
+  vertical-align: middle;
+  background-image: none;
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+[class*="entypo-"]:before {
+  font-family: "entypo";
+  font-weight: normal;
+  font-size: 3.5em;
+  font-style: normal;
+  text-decoration: inherit;
+}
+
+.entypo-instagram:before {
+  content: "\f32d";
+}
+.entypo-twitter:before {
+  content: "\f309";
+}
+.entypo-linkedin:before {
+  content: "\f30c";
+}
+.entypo-github:before {
+  content: "\f300";
+}
+.entypo-mail:before {
+  content: "\2709";
+}
+
+
