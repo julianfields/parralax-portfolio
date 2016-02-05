@@ -18,12 +18,12 @@ title: Julian Fields Portfolio
           %a{:href => "#slide4", :title => "Next Section"} WIREFRAMES
         %li
           %a{:href => "#slide5", :title => "Next Section"} PHOTOGRAPHY
-#slide1
+#slide1.target
   .content
   %h1 DESIGNER
   %h1 PHOTOGRAPHER
   %h1 SURFER
-#slide2.about
+#slide2.about.target
   .content
     .quotes_container
       %h3.quotes “A lover of life, people, outdoors and design.  When people come together in a creative space, magic happens!  Raised in Oregon, I call the greatest place on earth home.  A graduate of Oregon State University, and the school of life, I take every opportunity to learn something new and see things a different way.”
@@ -34,7 +34,7 @@ title: Julian Fields Portfolio
         = link_to " ", "https://github.com/julianfields", class: "entypo-github"
         = mail_to "oregonjuice@gmail.com","", class: "entypo-mail", title: "contact julian"
       
-#slide3
+#slide3.target
   .content
     .quotes_container
     %h3.quotes “With good design, things feel effortless, you don't even notice it.  What we consider bad design was once good, but is now outdated.  I try to listen to my client's needs and build sites that represent the company and who they are.”
@@ -45,13 +45,15 @@ title: Julian Fields Portfolio
         %img(src="/images/B&G.png")
       %a(href="http://hotbirdrunning.com")
         %img(src="/images/hotbird.png")
-#slide4
+#slide4.target
   .content
     .quotes_container
       %h3.quotes “I use Balsamiq, Sketch 3, and pencil and paper to develop wireframes for my sites."
       %img{:align => "left", :src => "images/Frood-screenshot.png"}/
-#slide5
+#slide5.target
   .content
     .quotes_container
       %h3.quotes “I use photography to capture unique moments in time.  The beauty of a landscape, a person, or a product.  Sometimes, the beauty is impossible to capture through a lens.  You must be in the moment and soak it all in!”
+
+
 
