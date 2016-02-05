@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   $(window).on('scroll', function() {
       $('.target').each(function() {
-          if($(window).scrollTop() >= $(this).offset().top) {
+          if ($(window).scrollTop() >= $(this).offset().top - 1) {
               var id = $(this).attr('id');
               $('#nav a').removeClass('active');
               $('#nav a[href=#'+ id +']').addClass('active');

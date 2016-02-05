@@ -270,3 +270,8 @@ h3 {
 .social-icons a {
   text-decoration: none;
   color: #000; }
+
+@media screen and (min-width: 750px) {
+  /* line 159, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+  #slide1 {
+    background-size: 100%; } }
