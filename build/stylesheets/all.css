@@ -129,18 +129,19 @@ h3 {
 
 /* line 47, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #header {
+  background-color: #b5b5b5;
   width: 100%;
   background: url("../images/header-bg.png");
   height: 80px;
   position: fixed; }
 
-/* line 54, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 55, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #nav {
   width: 455px;
   float: right;
   margin-top: 20px; }
 
-/* line 55, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 56, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #logo a {
   color: #fff;
   text-decoration: none;
@@ -151,20 +152,20 @@ h3 {
   font-family: "Oswald";
   font-weight: bold; }
 
-/* line 56, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 57, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #nav ul {
   list-style: none;
   display: block;
   margin: 0 auto;
   list-style: none; }
 
-/* line 63, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 64, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #nav li {
   margin-top: 9px;
   float: left;
   padding-left: 21px; }
 
-/* line 68, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 69, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #nav li a {
   color: #fff;
   opacity: 0.6;
@@ -172,18 +173,18 @@ h3 {
   text-decoration: none;
   font-family: 'Oswald'; }
 
-/* line 69, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 70, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #nav li a.active {
   color: #fff;
   opacity: 1;
   border-bottom: 2px solid #fff; }
 
-/* line 70, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 71, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #nav li a:hover {
   color: #fff;
   opacity: 1; }
 
-/* line 72, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 73, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .quotes {
   font-family: 'Goudy Bookletter 1911', serif;
   font-weight: normal;
@@ -191,16 +192,16 @@ h3 {
   text-align: left;
   margin: 50px auto; }
 
-/* line 80, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 81, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .quotes_container {
   width: 800px;
   margin: 0 auto; }
 
-/* line 85, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 86, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #slide1, #slide2 {
   width: 100%; }
 
-/* line 89, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 90, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #slide1 {
   background: url("../images/hero-1.jpg") 50% 0 no-repeat fixed;
   color: #fff;
@@ -209,7 +210,7 @@ h3 {
   padding: 200px 0 260px 0;
   background-size: cover; }
 
-/* line 98, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 99, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #slide2 {
   background-color: #fff;
   color: #000;
@@ -218,16 +219,16 @@ h3 {
   overflow: hidden;
   padding: 200px 0; }
 
-/* line 107, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 108, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .about img, .about .social-icons {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 112, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 113, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .about img {
   margin-right: 20px; }
 
-/* line 116, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 117, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #slide3 {
   background: url(../images/ocean.jpg) 50% 0 no-repeat fixed;
   color: #fff;
@@ -235,14 +236,14 @@ h3 {
   padding: 170px 0 0 0;
   background-size: cover; }
 
-/* line 124, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 125, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #slide4 {
   background-color: #Fff;
   color: #333333;
   height: 600px;
   padding: 200px 0; }
 
-/* line 131, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 132, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 #slide5 {
   background: url(../images/pier-edit-1.jpg) 50% 0 no-repeat fixed;
   height: 300px;
@@ -251,27 +252,27 @@ h3 {
   color: #fff;
   background-size: cover; }
 
-/* line 140, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 141, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .client-logos {
   text-align: center; }
 
-/* line 143, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 144, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .client-logos img {
   width: 100px;
   margin: 0 10px;
   display: inline-block;
   vertical-align: middle; }
 
-/* line 149, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 150, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .client-logos a:nth-child(3) img {
   width: 75px; }
 
-/* line 153, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+/* line 154, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
 .social-icons a {
   text-decoration: none;
   color: #000; }
 
 @media screen and (min-width: 750px) {
-  /* line 159, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
+  /* line 160, /Users/julianfields/work/parralax-portfolio/source/stylesheets/all.scss */
   #slide1 {
     background-size: 100%; } }
